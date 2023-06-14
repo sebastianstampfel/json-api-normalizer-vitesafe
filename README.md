@@ -1,4 +1,8 @@
-# json-api-normalizer
+# json-api-normalizer-vitesafe
+
+## Fork of json-api-normalizer
+Fork of https://www.npmjs.com/package/json-api-normalizer to work with a vite build environment.
+
 
 Utility to normalize JSON API data for redux applications
 

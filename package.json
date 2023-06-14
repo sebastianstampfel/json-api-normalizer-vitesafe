@@ -1,5 +1,5 @@
 {
-  "name": "@sebastianstampfel/json-api-normalizer-vitesafe",
+  "name": "@sebastian_stampfel/json-api-normalizer-vitesafe",
   "version": "1.0.4",
   "description": "JSON API response normalizer",
   "files": [
