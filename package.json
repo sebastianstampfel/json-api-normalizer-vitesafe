@@ -1,18 +1,22 @@
 {
-  "name": "json-api-normalizer",
+  "name": "@sebastianstampfel/json-api-normalizer-vitesafe",
   "version": "1.0.4",
   "description": "JSON API response normalizer",
-  "main": "dist/bundle.js",
+  "files": ["dist"],
+  "main": "./dist/json-api-normalizer.umd.cjs",
+  "module": "./dist/json-api-normalizer.js",
+  "type": "module",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack",
-    "clean": "cross-env rimraf dist coverage lib",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "coverage": "nyc _mocha --require @babel/register",
     "lint": "cross-env eslint src --ext .js",
     "test": "cross-env mocha --require @babel/register"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yury-dymov/json-api-normalizer.git"
+    "url": "git+https://github.com/sebastianstampfel/json-api-normalizer-vitesafe.git"
   },
   "keywords": [
     "JSON",
@@ -44,6 +48,7 @@
     "mocha": "^8.2.1",
     "nyc": "^14.1.1",
     "rimraf": "^2.6.2",
+    "vite": "^4.3.9",
     "webpack": "^5.9.0",
     "webpack-cli": "^4.2.0",
     "webpack-node-externals": "^2.5.2"
