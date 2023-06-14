@@ -2,7 +2,9 @@
   "name": "@sebastianstampfel/json-api-normalizer-vitesafe",
   "version": "1.0.4",
   "description": "JSON API response normalizer",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/json-api-normalizer.umd.cjs",
   "module": "./dist/json-api-normalizer.js",
   "type": "module",
@@ -25,6 +27,9 @@
     "redux"
   ],
   "author": "Yury Dymov",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yury-dymov/json-api-normalizer/issues"
