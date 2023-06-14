@@ -1,6 +1,6 @@
 {
   "name": "@sebastian_stampfel/json-api-normalizer-vitesafe",
-  "version": "0.0.1",
+  "version": "1.0.5",
   "description": "JSON API response normalizer",
   "files": [
     "dist"
